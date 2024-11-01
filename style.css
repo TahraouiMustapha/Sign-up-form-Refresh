@@ -57,11 +57,44 @@ body {
 .creator-credit {
     position: relative;
     top:160px;
-    left: 25%;
+    left: 160px;
     font-size: 0.8em;
     font-weight: lighter;
 }
 
 .creator-credit a {
     color: white;
+}
+
+/* style for right side  */
+.right-side {
+    --left-padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex: 1;
+    background-color: rgb(243, 244, 246);
+}
+
+.right-side .text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: var(--left-padding);
+}
+
+.text > p {
+    margin-bottom: 32px;
+}
+/* form style */
+
+.lets-do-this-section {
+    padding-left: var(--left-padding);
+}
+
+.create-account, 
+.create-account + p {
+    margin-left: var(--left-padding);
+    margin-bottom: 12px;
 }
