@@ -31,10 +31,48 @@
         </div>
         <form action="" method="post">
             <section class="lets-do-this-section">
-                
+                <h1 class="lets-do-this-title">Let's do this!</h1>
+                <div class="inputs">
+                    <p>
+                        <label for="first-name">first name</label>
+                        <input type="text" 
+                                id="first-name" 
+                                name="first_name" required>
+                    </p>
+                    <p>
+                        <label for="last-name">last name</label>
+                        <input type="text" 
+                            id="last-name" 
+                            name="last_name" required>
+                    </p>
+                    <p>
+                        <label for="email">email</label>
+                        <input type="email" 
+                            id="email" 
+                            name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone-number">phone number</label>
+                        <input type="tel" 
+                            id="phone-number"
+                            name="phone_number" required>
+                    </p>
+                    <p>
+                        <label for="password">password</label>
+                        <input type="password" 
+                            id="password" 
+                            name="password" required>
+                    </p>
+                    <p>
+                        <label for="confirm-password">confirm password</label>
+                        <input type="password" 
+                            id="confirm-password" 
+                            name="confirm_password" required>
+                    </p>
+                </div>
             </section>
-            <button class="create-account">Create Account</button>
-            <p>Already have an account?<a href="#">Log in</a></p>
+            <button type="submit" class="create-account">Create Account</button>
+            <p>Already have an account?<a href="#"> Log in</a></p>
         </form>
     </section>
 </body>
